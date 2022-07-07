@@ -6,7 +6,7 @@ var db;
 url = process.env.MONGO_URL ||"mongodb+srv://roshan:9939105936@music-app-db-hexhh.mongodb.net/?retryWrites=true&w=majority";
 mongoClient.connect(url, function (err, client) {
     if (err) throw err;
-    db = client.db("musify");
+    db = client.db("GeetKari");
 });
 
 var port = process.env.PORT || 3000;
