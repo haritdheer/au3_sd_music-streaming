@@ -115,7 +115,7 @@ router.get('/', function (req, res) {
                                                                  if (err) throw err;
                                                                  var resultNine = data.body.items[0];
                                                                   res.render('index', {
-                                                                      title: 'Musify',
+                                                                      title: 'GeetKari',
                                                                       style: 'index.css',
                                                                       script: 'addToPlay.js',
                                                                       firstAlbumImage: firstAlbumImage,
